@@ -1,1 +1,14 @@
-
+.header{
+    display:flex;
+    float: right;
+}
+.header-home{
+    width: 100px;
+}
+.header-about{
+    width: 100px;
+}
+.header-work{
+    width: 100px;
+    position: right;
+}
