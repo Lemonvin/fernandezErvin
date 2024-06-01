@@ -1,0 +1,29 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.pic{
+    height:200px;
+    border-radius: 100px;
+    width: 200px;
+}
+.profile-name{
+    width: 300px;
+}
+.name{
+    font-size: 20px;
+    font-weight:bold;
+}
+.socmed-link{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+}
+.link-fb,.link-reddit,.link-github{
+    height: 30px;
+}
