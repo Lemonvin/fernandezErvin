@@ -1,0 +1,19 @@
+body{
+    background-color:#F7CFB6;
+    margin: 0;
+}
+*{
+    font-family: Roboto,arial;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0  ;
+}
+li{
+    display: inline;
+    margin: 0 10px 0 10px;
+}

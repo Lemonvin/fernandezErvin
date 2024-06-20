@@ -1,0 +1,97 @@
+main{
+    margin-top:100px;
+}
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1,
+h2{
+    color:rgb(104, 1, 16);
+}
+p{
+    color:rgb(104, 1, 16);
+}
+.name{
+    color: black;
+}
+.intro-pic{
+    display:grid;
+    grid-template-columns: 200px 1165px;
+
+}
+.about{
+    padding-left: 25px;
+    background-color:rgb(247,240,182);
+}
+.about-me{
+    position: relative;
+    font-size: 22px;
+}
+.profile{
+    display: grid;
+    grid-template-columns: 200px 250px;
+}
+.personal-info{
+    margin: 0;
+}
+.info{
+    margin: 10px 0px 10px 10px;
+    white-space: nowrap;
+}
+.profile-pic{
+    width: 200px;
+    height: 250px;
+}
+.work-pic{
+    height: 500px;
+}
+.work-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.work-container{
+    border: 10px solid rgb(121, 87, 90);
+    padding: 0 0 0 -5px;
+    margin-top:20px;
+}
+.contact-container{
+    display:grid;
+    grid-template-columns: 300px 300px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid  rgb(121, 87, 90);
+    width: 300px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.contact-input,.contact-message{
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.contact-message{
+    height: 100px   ;
+}
+.submit{
+    border: 1px solid rgb(106, 45, 58);
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(106, 45, 58);
+    cursor: pointer;
+    height: 30px;
+}
+.submit:active{
+    transform: translate(0,1px);
+}

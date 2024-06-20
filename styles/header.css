@@ -1,0 +1,20 @@
+.header{
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;     
+    top:0;
+    left:0;
+    right:0;
+    background-image: linear-gradient(#782834,#572d35);    
+    align-items: center;
+    z-index: 99;
+    padding: 0px 10px 0px 10px;
+}
+.header-icon{
+    height: 40px;
+}
+.logo-pic{
+    height: 50px;
+    border-radius: 25px;
+}
